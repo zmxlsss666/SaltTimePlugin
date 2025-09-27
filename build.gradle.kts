@@ -33,7 +33,7 @@ tasks.named<Jar>("jar") {
         attributes["Plugin-Provider"] = pluginProvider
         attributes["Plugin-Name"] = "SaltTimePlugin"
         attributes["Plugin-Description"] = "保存播放器上次播放进度"
-        attributes["PluginOpenSourceUrl"] = "https://github.com/zmxlsss666/SaltTimePlugin"
+        attributes["Plugin-Open-Source-Url"] = "https://github.com/zmxlsss666/SaltTimePlugin"
     }
 }
 
@@ -50,4 +50,5 @@ tasks.register<Jar>("plugin") {
         })
     }
     archiveExtension.set("zip")
+
 }
