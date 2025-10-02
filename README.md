@@ -3,7 +3,7 @@
 本插件为 Salt Player for Windows 提供播放进度自动保存与恢复功能，即使播放器意外崩溃或强制关闭，也能在下次播放时从上次中断处继续。
 ## 安装方法
 1.  下载插件压缩包
-2.  解压放入%appdata%\Salt Player for Windows\workshop\plugins
+2.  解压放入%appdata%\Salt Player for Windows\workshop\plugins（在1.7.0版本的spw已支持应用内添加）
 3.  进入SPW→设置→创意工坊→模组管理→SaltTimePlugin→启用
 ## 编译方法
 ```
